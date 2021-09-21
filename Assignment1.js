@@ -2,9 +2,10 @@ var capitalize = (name)=>{
     return name.toUpperCase();
 }
 
-var greeting = (name)=>{
-    console.log('HELLO '+name);
+var greeting = (capital)=>{
+    console.log(capital);
+    console.log('HELLO '+capital("ranadheer"));
 }
 
-greeting(capitalize("ranadheer"))
+greeting(capitalize)
 
