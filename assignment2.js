@@ -1,4 +1,5 @@
 
+
 function getData(uId) {
     return new Promise((resolve,reject)=>
     setTimeout(() => {
